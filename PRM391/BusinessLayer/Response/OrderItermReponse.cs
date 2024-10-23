@@ -9,5 +9,6 @@ namespace BusinessLayer.Response
     public class OrderItermReponse
     {
         public string productName {  get; set; }
+        public string image {  get; set; }
     }
 }

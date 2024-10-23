@@ -57,6 +57,8 @@ namespace ServiceLayer.Implement
                   return order;
 
               }*/
+       
+
         public async Task<OrderResponse> ConvertCartToOrder(int userId, OrderRequest orderRequest)
         {
             var user = await _userRepository.GetUserById(userId);
@@ -109,14 +111,22 @@ namespace ServiceLayer.Implement
                 {
                     productName = _productRepository.GetProductNameById(oi.CartId),
                     
+                    
                 }).ToList(),
             };
 
         }
 
-        public Task<List<OrderResponse>> HistoryOrderByUser(int userId)
+        public async Task<List<OrderResponse>> HistoryOrderByUser(int userId)
         {
-            throw new NotImplementedException();
+            var user = await _userRepository.GetUserById(userId);
+            if (user == null)
+            {
+                return null;
+            }
+            List<OrderResponse> order = await _orderRepository.FindOrderByUserID(userId);
+            return order; 
+
         }
     }
 }

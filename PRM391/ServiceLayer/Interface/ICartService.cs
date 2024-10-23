@@ -15,5 +15,8 @@ namespace ServiceLayer.Interface
         Task<bool> RemoveCart(int userId);
         Task<bool> DeleteCartByProductID(int userId, int productId);
         Task<bool> RemoveByCartID( int cartId);
+
+        Task<bool> UpdateQuantityAsync(int cartId, int quantity);
+
     }
 }

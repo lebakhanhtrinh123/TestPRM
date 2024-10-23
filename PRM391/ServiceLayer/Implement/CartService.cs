@@ -167,7 +167,23 @@ namespace ServiceLayer.Implement
             _cartRepository.RemoveCart(cartId);
             return true; 
         }
+        public async Task<bool> UpdateQuantityAsync(int cartId, int quantity)
+        {
+            if (quantity <= 0)
+            {
+                throw new ArgumentException("Quantity must be greater than zero.", nameof(quantity));
+            }
 
+            var cart = await _cartRepository.GetCartById(cartId);
+            if (cart == null)
+            {
+                throw new KeyNotFoundException($"Cart with ID {cartId} not found.");
+            }
+            cart.Price = (cart.Price / cart.Quantity) * quantity;
+            cart.Quantity = quantity;
+            _cartRepository.UpdateCart(cart);
+            return true;
+        }
     }
 
 }

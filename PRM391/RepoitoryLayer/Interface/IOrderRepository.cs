@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Entity;
+using BusinessLayer.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace RepoitoryLayer.Interface
     {
         void CreateOrder(Order order);
         Task<Order> FindByOrderID(int userId);
+        Task<List<OrderResponse>> FindOrderByUserID(int userId);
         Task<Order> UpdateOrder(Order order);
     }
 }

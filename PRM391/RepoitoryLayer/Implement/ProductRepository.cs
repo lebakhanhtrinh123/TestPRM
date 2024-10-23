@@ -79,6 +79,12 @@ namespace RepoitoryLayer.Implement
             return productResponse;
         }
 
+        public string GetProductImageById(int? cartId)
+        {
+            Cart? cart = _context.Carts.Include(c => c.Product).FirstOrDefault(n => n.CartId == cartId);
+            return cart.Product.Image;
+        }
+
         public string GetProductNameById(int? cartId)
         {
             Cart? cart = _context.Carts.Include(c => c.Product).FirstOrDefault(n => n.CartId == cartId);
@@ -101,5 +107,7 @@ namespace RepoitoryLayer.Implement
             await _context.SaveChangesAsync();
             return productResponse;
         }
+
+        
     }
 }

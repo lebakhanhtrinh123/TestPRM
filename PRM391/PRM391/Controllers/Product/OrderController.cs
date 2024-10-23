@@ -1,5 +1,6 @@
 ﻿using Azure.Core;
 using BusinessLayer.Request;
+using BusinessLayer.Response;
 using Microsoft.AspNetCore.Mvc;
 using ServiceLayer.Interface;
 
@@ -22,11 +23,12 @@ namespace PRM391.Controllers.Product
             var result = await orderService.ConvertCartToOrder(userID, orderRequest);
             return Ok(result);
         }
-      /*  [HttpPost("test-create-order")]
-        public async Task<ActionResult> TestCreateOrder( int useRID , OrderRequest orderRequest)
+        [HttpGet("get-order")]
+        public async Task<ActionResult<List<OrderResponse>>> GetOrder(int userId)
         {
-            var result = orderService.CreateOrder(useRID, orderRequest);
+            var result = await orderService.HistoryOrderByUser(userId);
             return Ok(result);
-        }*/
+        }
+
     }
 }

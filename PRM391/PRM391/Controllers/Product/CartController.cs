@@ -53,5 +53,13 @@ namespace PRM391.Controllers.Product
 
             return Ok(result); 
         }
+
+        [HttpPut("updatequantity")]
+        public async Task<ActionResult<bool>> UpdateQuantity(int cartId, int quantity)
+        {
+            bool result = await cartService.UpdateQuantityAsync(cartId, quantity);
+            return Ok(result);
+
+        }
     }
 }
