@@ -1,0 +1,14 @@
+D:\groupProject\PRM391\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+D:\groupProject\PRM391\BusinessLayer\bin\Debug\net8.0\BusinessLayer.runtimeconfig.json
+D:\groupProject\PRM391\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+D:\groupProject\PRM391\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+D:\groupProject\PRM391\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+D:\groupProject\PRM391\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\groupProject\PRM391\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+D:\groupProject\PRM391\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+D:\groupProject\PRM391\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\groupProject\PRM391\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+D:\groupProject\PRM391\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+D:\groupProject\PRM391\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+D:\groupProject\PRM391\BusinessLayer\obj\Debug\net8.0\BusinessLayer.genruntimeconfig.cache
+D:\groupProject\PRM391\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll

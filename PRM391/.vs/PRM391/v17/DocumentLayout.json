@@ -1,0 +1,777 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\groupProject\\PRM391\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\prm391\\servicelayer\\implement\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\implement\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\response\\cartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\response\\cartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|d:\\groupproject\\prm391\\repoitorylayer\\implement\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|solutionrelative:repoitorylayer\\implement\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\response\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\response\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|d:\\groupproject\\prm391\\repoitorylayer\\implement\\orderitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|solutionrelative:repoitorylayer\\implement\\orderitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|d:\\groupproject\\prm391\\repoitorylayer\\implement\\authenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|solutionrelative:repoitorylayer\\implement\\authenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|d:\\groupproject\\prm391\\repoitorylayer\\interface\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|solutionrelative:repoitorylayer\\interface\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\prm391\\servicelayer\\interface\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|d:\\groupproject\\prm391\\repoitorylayer\\implement\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|solutionrelative:repoitorylayer\\implement\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|d:\\groupproject\\prm391\\repoitorylayer\\implement\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|solutionrelative:repoitorylayer\\implement\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45008626-47CB-4BA5-AD1B-51B82FFA08F7}|PRM391\\PRM391.csproj|d:\\groupproject\\prm391\\prm391\\controllers\\product\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45008626-47CB-4BA5-AD1B-51B82FFA08F7}|PRM391\\PRM391.csproj|solutionrelative:prm391\\controllers\\product\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45008626-47CB-4BA5-AD1B-51B82FFA08F7}|PRM391\\PRM391.csproj|d:\\groupproject\\prm391\\prm391\\controllers\\product\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45008626-47CB-4BA5-AD1B-51B82FFA08F7}|PRM391\\PRM391.csproj|solutionrelative:prm391\\controllers\\product\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45008626-47CB-4BA5-AD1B-51B82FFA08F7}|PRM391\\PRM391.csproj|d:\\groupproject\\prm391\\prm391\\controllers\\product\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45008626-47CB-4BA5-AD1B-51B82FFA08F7}|PRM391\\PRM391.csproj|solutionrelative:prm391\\controllers\\product\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|d:\\groupproject\\prm391\\repoitorylayer\\implement\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|solutionrelative:repoitorylayer\\implement\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|d:\\groupproject\\prm391\\repoitorylayer\\interface\\iauthenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|solutionrelative:repoitorylayer\\interface\\iauthenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|d:\\groupproject\\prm391\\repoitorylayer\\interface\\iorderitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|solutionrelative:repoitorylayer\\interface\\iorderitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|d:\\groupproject\\prm391\\repoitorylayer\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|solutionrelative:repoitorylayer\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|d:\\groupproject\\prm391\\repoitorylayer\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|solutionrelative:repoitorylayer\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|d:\\groupproject\\prm391\\repoitorylayer\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|solutionrelative:repoitorylayer\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\prm391\\servicelayer\\implement\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\implement\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\prm391\\servicelayer\\implement\\authenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\implement\\authenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\prm391\\servicelayer\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\prm391\\servicelayer\\implement\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\implement\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\request\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\response\\orderitermreponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\response\\orderitermreponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45008626-47CB-4BA5-AD1B-51B82FFA08F7}|PRM391\\PRM391.csproj|d:\\groupproject\\prm391\\prm391\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45008626-47CB-4BA5-AD1B-51B82FFA08F7}|PRM391\\PRM391.csproj|solutionrelative:prm391\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45008626-47CB-4BA5-AD1B-51B82FFA08F7}|PRM391\\PRM391.csproj|d:\\groupproject\\prm391\\prm391\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{45008626-47CB-4BA5-AD1B-51B82FFA08F7}|PRM391\\PRM391.csproj|solutionrelative:prm391\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\context\\koicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\context\\koicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\request\\orderitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\orderitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\entity\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entity\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\prm391\\servicelayer\\interface\\iauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\iauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\prm391\\servicelayer\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|d:\\groupproject\\prm391\\repoitorylayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA12A7-D955-445B-9EFE-7D48B6917809}|RepoitoryLayer\\RepoitoryLayer.csproj|solutionrelative:repoitorylayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\response\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\response\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\request\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45008626-47CB-4BA5-AD1B-51B82FFA08F7}|PRM391\\PRM391.csproj|d:\\groupproject\\prm391\\prm391\\controllers\\authen\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45008626-47CB-4BA5-AD1B-51B82FFA08F7}|PRM391\\PRM391.csproj|solutionrelative:prm391\\controllers\\authen\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\prm391\\businesslayer\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D91012-373A-4758-873F-424F9CEEFE18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\prm391\\servicelayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{715FA828-4A08-480D-AF48-5BA60DA3B523}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 289,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Implement\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "RepoitoryLayer\\Implement\\ProductRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Implement\\ProductRepository.cs",
+              "RelativeToolTip": "RepoitoryLayer\\Implement\\ProductRepository.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAjwFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:53:31.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Implement\\UserRepository.cs",
+              "RelativeDocumentMoniker": "RepoitoryLayer\\Implement\\UserRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Implement\\UserRepository.cs",
+              "RelativeToolTip": "RepoitoryLayer\\Implement\\UserRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:05:31.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Implement\\CartRepository.cs",
+              "RelativeDocumentMoniker": "RepoitoryLayer\\Implement\\CartRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Implement\\CartRepository.cs",
+              "RelativeToolTip": "RepoitoryLayer\\Implement\\CartRepository.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAQwHcAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T16:42:01.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\ServiceLayer\\Implement\\CartService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Implement\\CartService.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\ServiceLayer\\Implement\\CartService.cs",
+              "RelativeToolTip": "ServiceLayer\\Implement\\CartService.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAQwIIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:03:32.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Interface\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "RepoitoryLayer\\Interface\\ICartRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Interface\\ICartRepository.cs",
+              "RelativeToolTip": "RepoitoryLayer\\Interface\\ICartRepository.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAtwBgAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T16:41:54.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\ServiceLayer\\Interface\\ICartService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Interface\\ICartService.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\ServiceLayer\\Interface\\ICartService.cs",
+              "RelativeToolTip": "ServiceLayer\\Interface\\ICartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:59:48.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderResponse.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Response\\OrderResponse.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Response\\OrderResponse.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Response\\OrderResponse.cs",
+              "RelativeToolTip": "BusinessLayer\\Response\\OrderResponse.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T16:41:29.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartResponse.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Response\\CartResponse.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Response\\CartResponse.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Response\\CartResponse.cs",
+              "RelativeToolTip": "BusinessLayer\\Response\\CartResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:27:04.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Entity\\Product.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Entity\\Product.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Entity\\Product.cs",
+              "RelativeToolTip": "BusinessLayer\\Entity\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:22:13.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderItemsRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Implement\\OrderItemsRepository.cs",
+              "RelativeDocumentMoniker": "RepoitoryLayer\\Implement\\OrderItemsRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Implement\\OrderItemsRepository.cs",
+              "RelativeToolTip": "RepoitoryLayer\\Implement\\OrderItemsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:57:19.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\PRM391\\Controllers\\Product\\CartController.cs",
+              "RelativeDocumentMoniker": "PRM391\\Controllers\\Product\\CartController.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\PRM391\\Controllers\\Product\\CartController.cs",
+              "RelativeToolTip": "PRM391\\Controllers\\Product\\CartController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wC0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:35:21.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthenRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Implement\\AuthenRepository.cs",
+              "RelativeDocumentMoniker": "RepoitoryLayer\\Implement\\AuthenRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Implement\\AuthenRepository.cs",
+              "RelativeToolTip": "RepoitoryLayer\\Implement\\AuthenRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:29:16.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\PRM391\\Controllers\\Product\\OrderController.cs",
+              "RelativeDocumentMoniker": "PRM391\\Controllers\\Product\\OrderController.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\PRM391\\Controllers\\Product\\OrderController.cs",
+              "RelativeToolTip": "PRM391\\Controllers\\Product\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:50:27.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\PRM391\\Controllers\\Product\\ProductController.cs",
+              "RelativeDocumentMoniker": "PRM391\\Controllers\\Product\\ProductController.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\PRM391\\Controllers\\Product\\ProductController.cs",
+              "RelativeToolTip": "PRM391\\Controllers\\Product\\ProductController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:56:28.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Implement\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "RepoitoryLayer\\Implement\\OrderRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Implement\\OrderRepository.cs",
+              "RelativeToolTip": "RepoitoryLayer\\Implement\\OrderRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAWwCIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:56:16.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAuthenRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Interface\\IAuthenRepository.cs",
+              "RelativeDocumentMoniker": "RepoitoryLayer\\Interface\\IAuthenRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Interface\\IAuthenRepository.cs",
+              "RelativeToolTip": "RepoitoryLayer\\Interface\\IAuthenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:29:36.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IOrderItemsRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Interface\\IOrderItemsRepository.cs",
+              "RelativeDocumentMoniker": "RepoitoryLayer\\Interface\\IOrderItemsRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Interface\\IOrderItemsRepository.cs",
+              "RelativeToolTip": "RepoitoryLayer\\Interface\\IOrderItemsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T12:53:51.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Interface\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "RepoitoryLayer\\Interface\\IOrderRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Interface\\IOrderRepository.cs",
+              "RelativeToolTip": "RepoitoryLayer\\Interface\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T16:41:53.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Entity\\User.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Entity\\User.cs",
+              "RelativeToolTip": "BusinessLayer\\Entity\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:22:17.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "RepoitoryLayer\\Interface\\IUserRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "RepoitoryLayer\\Interface\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:05:11.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Interface\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "RepoitoryLayer\\Interface\\IProductRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Interface\\IProductRepository.cs",
+              "RelativeToolTip": "RepoitoryLayer\\Interface\\IProductRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:52:35.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\ServiceLayer\\Interface\\IOrderService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IOrderService.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\ServiceLayer\\Interface\\IOrderService.cs",
+              "RelativeToolTip": "ServiceLayer\\Interface\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:48:49.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\ServiceLayer\\Implement\\OrderService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Implement\\OrderService.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\ServiceLayer\\Implement\\OrderService.cs",
+              "RelativeToolTip": "ServiceLayer\\Implement\\OrderService.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAQwE4AAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T12:54:24.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthenService.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\ServiceLayer\\Implement\\AuthenService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Implement\\AuthenService.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\ServiceLayer\\Implement\\AuthenService.cs",
+              "RelativeToolTip": "ServiceLayer\\Implement\\AuthenService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAswCMAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:28:33.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\ServiceLayer\\Implement\\ProductService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Implement\\ProductService.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\ServiceLayer\\Implement\\ProductService.cs",
+              "RelativeToolTip": "ServiceLayer\\Implement\\ProductService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwD0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:51:55.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderItermReponse.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Response\\OrderItermReponse.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Response\\OrderItermReponse.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Response\\OrderItermReponse.cs",
+              "RelativeToolTip": "BusinessLayer\\Response\\OrderItermReponse.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T11:05:24.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\PRM391\\Program.cs",
+              "RelativeDocumentMoniker": "PRM391\\Program.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\PRM391\\Program.cs",
+              "RelativeToolTip": "PRM391\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAcwDcAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:22:30.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\PRM391\\appsettings.json",
+              "RelativeDocumentMoniker": "PRM391\\appsettings.json",
+              "ToolTip": "D:\\groupProject\\PRM391\\PRM391\\appsettings.json",
+              "RelativeToolTip": "PRM391\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-22T07:22:32.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "KoiContext.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Context\\KoiContext.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Context\\KoiContext.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Context\\KoiContext.cs",
+              "RelativeToolTip": "BusinessLayer\\Context\\KoiContext.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwBEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:21:42.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderRequest.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Request\\OrderRequest.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Request\\OrderRequest.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Request\\OrderRequest.cs",
+              "RelativeToolTip": "BusinessLayer\\Request\\OrderRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:50:38.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "OrderItemRequest.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Request\\OrderItemRequest.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Request\\OrderItemRequest.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Request\\OrderItemRequest.cs",
+              "RelativeToolTip": "BusinessLayer\\Request\\OrderItemRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T11:38:28.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Entity\\Order.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Entity\\Order.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Entity\\Order.cs",
+              "RelativeToolTip": "BusinessLayer\\Entity\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:22:03.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Entity\\OrderItem.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Entity\\OrderItem.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Entity\\OrderItem.cs",
+              "RelativeToolTip": "BusinessLayer\\Entity\\OrderItem.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAawAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:22:09.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IAuthenService.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\ServiceLayer\\Interface\\IAuthenService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IAuthenService.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\ServiceLayer\\Interface\\IAuthenService.cs",
+              "RelativeToolTip": "ServiceLayer\\Interface\\IAuthenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:25:21.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\ServiceLayer\\Interface\\IProductService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IProductService.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\ServiceLayer\\Interface\\IProductService.cs",
+              "RelativeToolTip": "ServiceLayer\\Interface\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:49:51.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "RepoitoryLayer\\Class1.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\RepoitoryLayer\\Class1.cs",
+              "RelativeToolTip": "RepoitoryLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:14:26.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProductResponse.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Response\\ProductResponse.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Response\\ProductResponse.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Response\\ProductResponse.cs",
+              "RelativeToolTip": "BusinessLayer\\Response\\ProductResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:53:07.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductRequest.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Request\\ProductRequest.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Request\\ProductRequest.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Request\\ProductRequest.cs",
+              "RelativeToolTip": "BusinessLayer\\Request\\ProductRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:51:14.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AuthenController.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\PRM391\\Controllers\\Authen\\AuthenController.cs",
+              "RelativeDocumentMoniker": "PRM391\\Controllers\\Authen\\AuthenController.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\PRM391\\Controllers\\Authen\\AuthenController.cs",
+              "RelativeToolTip": "PRM391\\Controllers\\Authen\\AuthenController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwB0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:33:56.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Request\\LoginRequest.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "BusinessLayer\\Request\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:27:27.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\BusinessLayer\\Request\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Request\\RegisterRequest.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\BusinessLayer\\Request\\RegisterRequest.cs",
+              "RelativeToolTip": "BusinessLayer\\Request\\RegisterRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:27:57.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRM391\\ServiceLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Class1.cs",
+              "ToolTip": "D:\\groupProject\\PRM391\\ServiceLayer\\Class1.cs",
+              "RelativeToolTip": "ServiceLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:14:44.967Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
