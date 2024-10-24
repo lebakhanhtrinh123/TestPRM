@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\groupProject\\PRM391\\PRM391\\PRM391.csproj": {}
+    "D:\\FPT\\PRM\\TestPRM\\PRM391\\PRM391\\PRM391.csproj": {}
   },
   "projects": {
-    "D:\\groupProject\\PRM391\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\FPT\\PRM\\TestPRM\\PRM391\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\groupProject\\PRM391\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\FPT\\PRM\\TestPRM\\PRM391\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\groupProject\\PRM391\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\groupProject\\PRM391\\BusinessLayer\\obj\\",
+        "projectPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -91,21 +94,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\groupProject\\PRM391\\PRM391\\PRM391.csproj": {
+    "D:\\FPT\\PRM\\TestPRM\\PRM391\\PRM391\\PRM391.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\groupProject\\PRM391\\PRM391\\PRM391.csproj",
+        "projectUniqueName": "D:\\FPT\\PRM\\TestPRM\\PRM391\\PRM391\\PRM391.csproj",
         "projectName": "PRM391",
-        "projectPath": "D:\\groupProject\\PRM391\\PRM391\\PRM391.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\groupProject\\PRM391\\PRM391\\obj\\",
+        "projectPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\PRM391\\PRM391.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\PRM391\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,21 +120,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\groupProject\\PRM391\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\groupProject\\PRM391\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\FPT\\PRM\\TestPRM\\PRM391\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "D:\\groupProject\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj": {
-                "projectPath": "D:\\groupProject\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj"
+              "D:\\FPT\\PRM\\TestPRM\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj": {
+                "projectPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj"
               },
-              "D:\\groupProject\\PRM391\\ServiceLayer\\ServiceLayer.csproj": {
-                "projectPath": "D:\\groupProject\\PRM391\\ServiceLayer\\ServiceLayer.csproj"
+              "D:\\FPT\\PRM\\TestPRM\\PRM391\\ServiceLayer\\ServiceLayer.csproj": {
+                "projectPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\ServiceLayer\\ServiceLayer.csproj"
               }
             }
           }
@@ -148,6 +154,16 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
             },
@@ -175,21 +191,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\groupProject\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj": {
+    "D:\\FPT\\PRM\\TestPRM\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\groupProject\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj",
+        "projectUniqueName": "D:\\FPT\\PRM\\TestPRM\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj",
         "projectName": "RepoitoryLayer",
-        "projectPath": "D:\\groupProject\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\groupProject\\PRM391\\RepoitoryLayer\\obj\\",
+        "projectPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\RepoitoryLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -197,15 +217,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\groupProject\\PRM391\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\groupProject\\PRM391\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\FPT\\PRM\\TestPRM\\PRM391\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -240,21 +259,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\groupProject\\PRM391\\ServiceLayer\\ServiceLayer.csproj": {
+    "D:\\FPT\\PRM\\TestPRM\\PRM391\\ServiceLayer\\ServiceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\groupProject\\PRM391\\ServiceLayer\\ServiceLayer.csproj",
+        "projectUniqueName": "D:\\FPT\\PRM\\TestPRM\\PRM391\\ServiceLayer\\ServiceLayer.csproj",
         "projectName": "ServiceLayer",
-        "projectPath": "D:\\groupProject\\PRM391\\ServiceLayer\\ServiceLayer.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\groupProject\\PRM391\\ServiceLayer\\obj\\",
+        "projectPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\ServiceLayer\\ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\ServiceLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -262,18 +285,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\groupProject\\PRM391\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\groupProject\\PRM391\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\FPT\\PRM\\TestPRM\\PRM391\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "D:\\groupProject\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj": {
-                "projectPath": "D:\\groupProject\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj"
+              "D:\\FPT\\PRM\\TestPRM\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj": {
+                "projectPath": "D:\\FPT\\PRM\\TestPRM\\PRM391\\RepoitoryLayer\\RepoitoryLayer.csproj"
               }
             }
           }
@@ -296,6 +318,10 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
             }
           },
           "imports": [
@@ -314,7 +340,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

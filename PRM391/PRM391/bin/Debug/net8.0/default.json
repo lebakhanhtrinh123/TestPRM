@@ -1,0 +1,7 @@
+{
+  "vnp_TmnCode": "F41QPUHD",
+  "vnp_HashSecret": "H1T76HUU4C7JG80Z5PX7PS92CSK7BV0T",
+  "vnp_Url": "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html",
+  "vnp_Api": "https://sandbox.vnpayment.vn/merchant_webapi/api/transaction",
+  "vnp_ReturnUrl": "http://localhost:7000/api-docs/#/Orders/get_api_order_update_order_status_after_payment"
+}
