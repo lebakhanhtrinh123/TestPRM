@@ -1,0 +1,6 @@
+D:\FPT\PRM\TestPRM\PRM391\ServiceLayer\obj\Debug\net8.0\ServiceLayerr.csproj.AssemblyReference.cache
+D:\FPT\PRM\TestPRM\PRM391\ServiceLayer\obj\Debug\net8.0\ServiceLayerr.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRM\TestPRM\PRM391\ServiceLayer\obj\Debug\net8.0\ServiceLayerr.AssemblyInfoInputs.cache
+D:\FPT\PRM\TestPRM\PRM391\ServiceLayer\obj\Debug\net8.0\ServiceLayerr.AssemblyInfo.cs
+D:\FPT\PRM\TestPRM\PRM391\ServiceLayer\obj\Debug\net8.0\ServiceLayerr.csproj.CoreCompileInputs.cache
+D:\FPT\PRM\TestPRM\PRM391\ServiceLayer\obj\Debug\net8.0\ServiceLayerr.sourcelink.json

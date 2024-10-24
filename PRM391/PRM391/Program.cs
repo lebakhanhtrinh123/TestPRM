@@ -4,12 +4,18 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using RepoitoryLayer.Implement;
 using RepoitoryLayer.Interface;
+using RepositoryLayer.Interface;
+using RepositoryLayer.Repository;
 using ServiceLayer.Implement;
 using ServiceLayer.Interface;
+using ServiceLayer.Service;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Configuration
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("default.json", optional: true, reloadOnChange: true);
 
 builder.Services.AddAuthentication(options =>
 {
@@ -55,7 +61,8 @@ builder.Services.AddScoped<IOrderService, OrderService>();
 
 builder.Services.AddScoped<IOrderItemsRepository, OrderItemsRepository>();
 
-
+builder.Services.AddScoped<IVnPayService, VnPayService>();
+builder.Services.AddScoped<IVnPayRepo, VnPayRepo>();
 
 
 

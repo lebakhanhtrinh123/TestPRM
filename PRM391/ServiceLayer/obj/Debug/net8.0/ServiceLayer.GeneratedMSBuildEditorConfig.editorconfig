@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ServiceLayer
-build_property.ProjectDir = D:\groupProject\PRM391\ServiceLayer\
+build_property.ProjectDir = D:\FPT\PRM\TestPRM\PRM391\ServiceLayer\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
