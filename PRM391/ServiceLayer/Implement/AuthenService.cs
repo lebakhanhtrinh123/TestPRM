@@ -19,11 +19,13 @@ namespace ServiceLayer.Implement
     {
         private readonly IAuthenRepository authenRepository;
         private IConfiguration configuration;
+        private readonly IUserRepository userRepository;
 
-        public AuthenService(IAuthenRepository authenRepository, IConfiguration configuration)
+        public AuthenService(IAuthenRepository authenRepository, IConfiguration configuration, IUserRepository userRepository)
         {
             this.authenRepository = authenRepository;
             this.configuration = configuration;
+            this.userRepository = userRepository;
         }
         public async Task<string?> Login(LoginRequest loginRequest)
         {
@@ -60,6 +62,11 @@ namespace ServiceLayer.Implement
             var addUser = await authenRepository.AddUser(user);
             return addUser;
         }
+        public async Task<User> GetUserById(int userID)
+        {
+            return await userRepository.GetUserById(userID);
+        }
+
         private async Task<string> GenerateJwtToken(User user)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
@@ -68,6 +75,7 @@ namespace ServiceLayer.Implement
             var claims = new[]
             {
         new Claim(JwtRegisteredClaimNames.Sub, user.Username),
+        new Claim("userId", user.UserId.ToString()),
         new Claim(JwtRegisteredClaimNames.Email, user.Email),
         new Claim("RoleId", user.RoleId.ToString()), // Thêm RoleId vào claims
         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()) // Thêm JTI

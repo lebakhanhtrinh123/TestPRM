@@ -12,5 +12,6 @@ namespace ServiceLayer.Interface
     {
         Task<string?> Login(LoginRequest loginRequest);
         Task<User> Register(RegisterRequest registerRequest);
+        Task<User> GetUserById(int userID);
     }
 }

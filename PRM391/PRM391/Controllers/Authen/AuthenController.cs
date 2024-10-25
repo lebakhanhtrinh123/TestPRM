@@ -57,6 +57,12 @@ namespace PRM391.Controllers.Authen
                 return BadRequest(ex.Message);
             }
         }
+        [HttpGet("profile")]
+        public async Task<ActionResult> Profile(int userId)
+        {
+            var result = await _authenService.GetUserById(userId);
+            return Ok(result);
+        }
     }
 }
 
