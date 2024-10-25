@@ -33,7 +33,7 @@ namespace ServiceLayer.Service
                 throw new Exception("Order not found");
             }
 
-            var amount = order.TotalPrice * 100;
+            var amount = order.TotalPrice;
             return GeneratePaymentUrl(orderId, (decimal)amount);
         }
 

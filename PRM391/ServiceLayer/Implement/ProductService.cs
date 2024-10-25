@@ -28,7 +28,7 @@ namespace ServiceLayer.Implement
             Product product = new Product
             {
 
-                ProductDescription = productRequest.ProductName,
+                ProductDescription = productRequest.ProductDescription,
                 ProductName = productRequest.ProductName,
                 Price = productRequest.Price,
                 StockQuantity = productRequest.StockQuantity,
